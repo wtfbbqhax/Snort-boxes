@@ -1,7 +1,21 @@
-Snort-boxes
+Snort boxes
 ===========
+This repo provides Vagrantfile(s) to quickly install Snort on a clean system.
+If you don't know what vagrant is then you are doing it wrong [Visit VagrantUP](https://www.vagrantup.com/).
 
-Vagrantfiles to quickly install Snort on a clean system. 
+
+Deployment
+==========
+
+After installing Vagrant (and maybe virtualbox), you can install
+a fresh snort environment as so:
+
+```bash
+git clone https://github.com/wtfbbqhax/Snort-boxes.git snort-boxes
+cd snort-boxes/
+vagrant up
+vagrant ssh
+```
 
 Missing Environments
 ====================
