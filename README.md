@@ -1,6 +1,7 @@
 Snort boxes
 ===========
 This repo provides Vagrantfile(s) to quickly install Snort on a clean system.
+
 If you don't know what vagrant is then you are doing it wrong [Visit VagrantUP](https://www.vagrantup.com/).
 
 
