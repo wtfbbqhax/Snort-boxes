@@ -19,6 +19,7 @@ apt-get install -y build-essential \
                    libdumbnet-dev \
                    libssl-dev \
                    liblzma-dev \
+                   texlive \
                    ethtool
 
 wget https://www.snort.org/downloads/snort/snort-2.9.7.0.tar.gz
